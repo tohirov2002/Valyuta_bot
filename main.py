@@ -3,7 +3,6 @@ import logging
 import sys
 import asyncio
 from aiogram.types import BotCommand
-from aiogram.utils.executor import start_webhook
 from config import BOT_Token
 from handlers.cmd_handler import cmd_router, update_courses
 from handlers.msg_handler import msg_router
